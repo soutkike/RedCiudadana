@@ -1,11 +1,18 @@
+// tailwind.config.js
 module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blueTheme: "#5271FF",
+      },
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      border: ["hover"],
+    },
   },
   plugins: [],
 };
