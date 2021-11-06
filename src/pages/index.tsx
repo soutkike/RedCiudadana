@@ -1,15 +1,12 @@
 import * as React from "react";
 import Header from "../components/Header";
-import "animate.css";
+import Hero from "../components/Hero";
 
 const Index = () => {
   return (
     <>
       <Header />
-      <div className="h-screen"></div>
-      <div className="animate__animated animate__bounce text-2xl">
-        Hey wewewewewe
-      </div>
+      <Hero />
     </>
   );
 };

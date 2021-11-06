@@ -7,7 +7,7 @@ const Header = () => {
       <div>
         <img src={logo} alt="Mocaaltama logo" className="h-14" />
       </div>
-      <div>
+      <div className="hidden xl:block">
         <a href="" className="text-gray-500 mr-8 hover:text-blueTheme ">
           Inicio
         </a>
