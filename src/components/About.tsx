@@ -4,13 +4,13 @@ import refineria from "../images/refineria.jpeg";
 const About = () => {
   return (
     <>
-      <section className="info-section mt-12">
+      <section className="info-section mt-12 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-20">
           <div className="flex flex-col justify-center w-full">
             <h3 className="text-2xl font-semibold text-blue-800 mb-3 tracking-wide">
               ¿Qué es la Red MooCaALTAMA?
             </h3>
-            <p className="leading-loose lg:text-lg text-justify">
+            <p className="leading-loose lg:text-lg text-justify font-light">
               Es una red ciudadana de monitoreo de calidad del aire de acceso
               libre para poner al alcance de la población y de los gobiernos
               municipales una herramienta complementaria a las estaciones
@@ -34,7 +34,7 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-blue-700 mb-3 tracking-wide">
               Antecedentes
             </h3>
-            <p className=" text-justify md:text-sm lg:text-base leading-relaxed">
+            <p className=" text-justify md:text-sm lg:text-base leading-relaxed font-light">
               La contaminación atmosférica es un grave problema provocado por la
               emisión de determinadas sustancias que provocan efectos
               perjudiciales para el medio ambiente y la salud. En la zona sur de
@@ -56,7 +56,7 @@ const About = () => {
             <h3 className="text-2xl text-center font-semibold text-blue-500 mb-5">
               Justificacion
             </h3>
-            <p className="text-justify px-5 leading-relaxed">
+            <p className="text-justify px-5 leading-relaxed font-light">
               El derecho a un medio ambiente sano, por lo tanto, es un derecho
               expresamente reconocido en el acervo normativo nacional y
               regional. La información es la principal herramienta para impulsar
@@ -76,7 +76,7 @@ const About = () => {
             <h3 className="text-2xl text-center text-blue-500 font-semibold mb-5">
               Objetivo
             </h3>
-            <p className="text-justify px-5 leading-relaxed">
+            <p className="text-justify px-5 leading-relaxed font-light">
               Construir una red de monitoreo ciudadana de acceso libre para
               poner al alcance de la población y de los gobiernos municipales
               una herramienta complementaria a las estaciones oficiales, para
