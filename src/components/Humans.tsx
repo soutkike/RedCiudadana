@@ -5,6 +5,7 @@ import imageErika from "../images/colaboradores/erika.png";
 import imageFelipec from "../images/colaboradores/felipec.png";
 import imageDavid from "../images/colaboradores/david.jpg";
 import imageMayte from "../images/colaboradores/mayte.png";
+import imageDiana from "../images/colaboradores/DIANA.jpg";
 
 const Humans = () => (
   <>
@@ -58,7 +59,7 @@ Miembro de la Academia Mexicana de Ciencias
 
         <TeamCard
           fullName="Enrique Castillo"
-          occupation="Desarrollador de Software en zeti.ai"
+          occupation="Desarrollador de Software"
           photo={imageEnrique}
           about={
             "Desarrollador web frontend, entusiasta de las tecnologías descentralizadas basadas en blockchain y futuro ingeniero."
@@ -66,10 +67,10 @@ Miembro de la Academia Mexicana de Ciencias
         />
 
         <TeamCard
-          fullName="Lorem Ipsum"
-          occupation="Lorem Ipsum"
-          photo=""
-          about="Lorem Ipsum"
+          fullName="Diana Dominguez"
+          occupation="Estudiante de Ingeniería Ambiental"
+          photo={imageDiana}
+          about="Estudiante de la carrera de ingeniería ambiental del Instituto Tecnológico de Cd. Madero, TECNM"
         />
       </div>
     </section>

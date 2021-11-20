@@ -5,9 +5,9 @@ import ciceseLogo from "../images/logos/cicese.png";
 import uvLogo from "../images/logos/uv.png";
 const Team = () => {
   return (
-    <section className="flex flex-col w-full h-screen justify-center">
+    <section className="flex flex-col w-full info-section justify-center">
       <div>
-        <h3 className="text-4xl text-center  font-semibold text-blueTheme">
+        <h3 className="text-4xl text-center  font-semibold text-blueTheme mt-12 lg:mt-2">
           Equipo de Trabajo
         </h3>
         <p className="text-center  text-gray-400">Instituciones Relacionadas</p>

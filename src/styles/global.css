@@ -34,6 +34,10 @@ body {
   animation: MoveUpDown 1s linear infinite;
 }
 
+.map__height {
+  height: 500px;
+}
+
 @keyframes MoveUpDown {
   0%,
   100% {
