@@ -4,7 +4,10 @@ import refineria from "../images/refineria.jpeg";
 const About = () => {
   return (
     <>
-      <section className="info-section mt-12 max-w-7xl mx-auto w-11/12">
+      <section
+        id="antecedentes"
+        className=" info-section mt-12 max-w-7xl mx-auto w-11/12"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-20">
           <div className="flex flex-col justify-center w-full">
             <h3 className="text-2xl font-semibold text-blue-800 mb-3 tracking-wide">

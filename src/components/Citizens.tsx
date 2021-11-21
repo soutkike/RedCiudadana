@@ -1,7 +1,10 @@
 import React from "react";
 import mainImage from "../images/ciudadanos.svg";
 const Citizens = () => (
-  <section className="h-screen w-full flex items-center justify-center">
+  <section
+    id="ciudadanos"
+    className="h-screen w-full flex items-center justify-center"
+  >
     <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl w-11/12  h-3/6 gap-y-10 gap-x-14">
       <div className="self-center flex flex-col">
         <h2 className="text-4xl text-blueTheme font-semibold mb-2 text-center md:text-left">

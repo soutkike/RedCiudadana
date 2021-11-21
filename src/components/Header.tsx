@@ -16,28 +16,46 @@ const Header = () => {
           <img src={logo} alt="Mocaaltama logo" className="h-14" />
         </div>
         <div className="hidden lg:block text-sm">
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme ">
+          <a
+            href="#inicio"
+            className="text-gray-500 mr-7 hover:text-blueTheme "
+          >
             Inicio
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a
+            href="#antecedentes"
+            className="text-gray-500 mr-7 hover:text-blueTheme  "
+          >
             Antecedentes
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a
+            href="#equipo"
+            className="text-gray-500 mr-7 hover:text-blueTheme  "
+          >
             Equipo
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a
+            href="#ciudadanos"
+            className="text-gray-500 mr-7 hover:text-blueTheme  "
+          >
             Ciudadanos
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a
+            href="#recursos"
+            className="text-gray-500 mr-7 hover:text-blueTheme  "
+          >
             Recursos
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a href="#docs" className="text-gray-500 mr-7 hover:text-blueTheme  ">
             Documentacion
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a
+            href="#encuestas"
+            className="text-gray-500 mr-7 hover:text-blueTheme  "
+          >
             Encuestas
           </a>
-          <a href="" className="text-gray-500 mr-7 hover:text-blueTheme  ">
+          <a href="#mapa" className="text-gray-500 mr-7 hover:text-blueTheme  ">
             Mapa
           </a>
         </div>
@@ -67,7 +85,7 @@ const Header = () => {
         <ul className="">
           <li className="active">
             <a
-              href="index.html"
+              href="#inicio"
               className="
                 block
                 text-sm
@@ -82,7 +100,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#services"
+              href="#antecedentes"
               className="
                 block
                 text-sm
@@ -99,7 +117,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#about"
+              href="equipo"
               className="
                 block
                 text-sm
@@ -116,7 +134,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="#contact"
+              href="#ciudadanos"
               className="
                 block
                 text-sm
@@ -131,7 +149,7 @@ const Header = () => {
               Ciudadanos
             </a>
             <a
-              href="#contact"
+              href="#recursos"
               className="
                 block
                 text-sm
@@ -146,7 +164,7 @@ const Header = () => {
               Recursos
             </a>
             <a
-              href="#contact"
+              href="#docs"
               className="
                 block
                 text-sm
@@ -161,7 +179,7 @@ const Header = () => {
               Documentación
             </a>
             <a
-              href="#contact"
+              href="#encuestas"
               className="
                 block
                 text-sm

@@ -5,7 +5,10 @@ import ciceseLogo from "../images/logos/cicese.png";
 import uvLogo from "../images/logos/uv.png";
 const Team = () => {
   return (
-    <section className="flex flex-col w-full info-section justify-center">
+    <section
+      id="equipo"
+      className=" flex flex-col w-full info-section justify-center"
+    >
       <div>
         <h3 className="text-4xl text-center  font-semibold text-blueTheme mt-12 lg:mt-2">
           Equipo de Trabajo

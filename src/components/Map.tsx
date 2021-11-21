@@ -2,7 +2,7 @@ import React from "react";
 
 const Map = () => {
   return (
-    <section className="info-section flex w-full items-center ">
+    <section id="mapa" className=" info-section flex w-full items-center ">
       <div className="max-w-6xl mx-auto map__height w-11/12">
         <h3 className=" text-center mb-12 md:text-xl lg:text-2xl">
           Zona Metropolitana del Sur de Tamaulipas: Altamira, Tampico y Cd.

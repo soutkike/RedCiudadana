@@ -10,9 +10,18 @@ import Footer from "../components/Footer";
 import Docs from "../components/Docs";
 import Encuestas from "../components/Encuestas";
 import Map from "../components/Map";
+import { Helmet } from "react-helmet";
+
+import favicon16 from "../images/favicons.ico/favicon-16x16.png";
+
 const Index = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Red MoCaALTAMA</title>
+        <link rel="icon" type="image/png" href={favicon16} sizes="16x16" />
+      </Helmet>
       <Header />
       <Hero />
       <About />

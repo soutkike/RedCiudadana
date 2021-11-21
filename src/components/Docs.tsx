@@ -2,7 +2,10 @@ import React from "react";
 
 const Docs = () => {
   return (
-    <section className="w-full h-screen flex flex-col justify-center items-center">
+    <section
+      id="docs"
+      className="w-full h-screen flex flex-col justify-center items-center"
+    >
       <h3 className="text-3xl text-blueTheme font-semibold mb-1">
         Documentación
       </h3>

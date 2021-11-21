@@ -5,7 +5,10 @@ import { FaChevronDown } from "@react-icons/all-files/fa/FaChevronDown";
 const Hero = () => {
   return (
     <>
-      <div className="relative hero flex flex-col justify-center gap-y-6 lg:gap-y-0 items-center xl:flex-row xl:justify-between xl:items-center">
+      <div
+        id="inicio"
+        className=" relative hero flex flex-col justify-center gap-y-6 lg:gap-y-0 items-center xl:flex-row xl:justify-between xl:items-center"
+      >
         <div className="flex flex-col lg:block">
           <h1 className="text-center lg:text-left text-2xl md:text-2xl lg:text-3xl xl:text-4xl mb-3 font-bold">
             Red Ciudadana de Monitoreo <br /> de la Calidad del Aire
