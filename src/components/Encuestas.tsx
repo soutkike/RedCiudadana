@@ -17,16 +17,19 @@ export const Encuestas = () => {
             </p>
           </div>
           <div className="flex flex-col justify-center  gap-y-8">
-            <button className="flex justify-center items-center bg-blue-700 max-w-sm py-4 text-white text-lg mx-auto w-80 rounded-lg">
-              <p className="">Encuesta 1</p>
-            </button>
+            <a
+              href="https://forms.gle/2m42qn2TwqmZE3uVA"
+              className="flex justify-center items-center bg-blue-700 max-w-sm py-4 text-white text-xs  mx-auto w-80 rounded-lg"
+            >
+              <p className="">Percepción del aire en la zona metropolitana</p>
+            </a>
 
-            <button className="flex justify-center items-center bg-blue-700 max-w-sm py-4 text-white text-lg mx-auto w-80 rounded-lg">
+            {/*  <button className="flex justify-center items-center bg-blue-700 max-w-sm py-4 text-white text-lg mx-auto w-80 rounded-lg">
               <p className="">Encuesta 2</p>
             </button>
             <button className="flex justify-center items-center bg-blue-700 max-w-sm py-4 text-white text-lg mx-auto w-80 rounded-lg">
               <p className="">Encuesta 3</p>
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
